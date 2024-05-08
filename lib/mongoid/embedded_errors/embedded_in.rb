@@ -1,3 +1,4 @@
+
 if Gem::Version.new(Mongoid::VERSION) >= Gem::Version.new('7.0.0')
   require 'mongoid/association/embedded/embedded_in'
   ASSOCIATION = Mongoid::Association::Macros::ClassMethods

@@ -3,7 +3,7 @@
 class Annotation
   include Mongoid::Document
 
-  embedded_in :article, inverse_of: :annotation
+  embedded_in :article, inverse_of: :annotation, touch: false
 
   field :text, type: String
 

@@ -13,4 +13,5 @@ group :test do
   gem 'guard-rspec'
   gem 'mutant-rspec'
   gem 'rspec'
+  gem 'pry-byebug'
 end
